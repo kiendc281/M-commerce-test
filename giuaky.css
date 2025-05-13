@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  /* border: 1px solid blue; */
+  /* background: lightgreen; */
+  /* float: left; */
+  /* top: 60px; */
+  /* text-indent: 0px; */
+}
+#container ul {
+  /* float: left; */
+  list-style: none;
+  /* background-color: lightgreen; */
+}
+#container ul li {
+  /* position: relative; */
+  float: left;
+  border: 1px solid black;
+  background-color: lightgreen;
+}
+#gochoctap li a {
+  background-color: lightsalmon;
+}
+#tintuc li a {
+  background-color: lightblue;
+}
+#container ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 0.3em 6px;
+}
+#container li a:hover {
+  background: yellow;
+}
+#container ul li ul {
+  /* position: absolute; */
+  display: none;
+  width: 10em;
+}
+#container li:hover ul {
+  display: block;
+}
+#container ul li ul li {
+  width: 100%;
+}

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:stretchColumns="0,1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/imgEmployee"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/ic_employee" />
+
+                    <TextView
+                        android:id="@+id/txtEmployee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_employee"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/imgCustomer"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/ic_customer" />
+
+                    <TextView
+                        android:id="@+id/txtCustomer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_customer"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/imgSchedule"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:srcCompat="@mipmap/ic_schedule"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/txtSchedule"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_customer"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/imgTask"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:srcCompat="@mipmap/ic_task"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/txtTask"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_customer"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/imgInfo"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:srcCompat="@mipmap/ic_info"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/txtInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_employee"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/imgTraining"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:srcCompat="@mipmap/ic_training"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/txtTraining"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_customer"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/imgPolicy"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:srcCompat="@mipmap/ic_policy"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/txtPolicy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_employee"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/imgReward"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:srcCompat="@mipmap/ic_reward"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/txtReward"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_customer"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/imgPolicy2"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:srcCompat="@mipmap/ic_policy"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/txtPolicy2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_employee"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+                    <ImageView
+                        android:id="@+id/imgReward2"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        app:srcCompat="@mipmap/ic_reward"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/txtReward2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/title_customer"
+                        android:textAlignment="center"
+                        android:textColor="#DC2929"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+    <!-- Scroll up button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnScrollUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/scroll_up"
+        app:backgroundTint="#DC2929"
+        app:srcCompat="@android:drawable/ic_menu_upload" />
+
+</FrameLayout>
